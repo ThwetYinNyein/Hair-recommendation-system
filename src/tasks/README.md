@@ -9,8 +9,8 @@ Note: Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1| task-1-data-collection    |
-|2| task-2-data-preprocessing |
-|3| task-3-eda                |
-|4| task-4-modeling           |
-|5| task-5-deployment         |
+|1| task 1-data collection    |
+|2| task 2-data preprocessing |
+|3| task 3-eda                |
+|4| task 4-modeling           |
+|5| task 5-deployment         |
