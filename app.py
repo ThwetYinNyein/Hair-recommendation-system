@@ -137,8 +137,8 @@ def main_page():
         target_width = int(target_height * aspect_ratio)
         return result_pic.resize((target_width, target_height))
     try:
-        recommended_image1 = Image.open(f'images/{face_shape}/recommended_1.jpg')
-        recommended_image2 = Image.open(f'images/{face_shape}/recommended_2.jpg')
+        recommended_image1 = Image.open(f'src/data//{face_shape}/recommended_1.jpg')
+        recommended_image2 = Image.open(f'src/data/{face_shape}/recommended_2.jpg')
 
 
 
@@ -160,8 +160,8 @@ def main_page():
 
     # Load and display avoided hairstyle images
     try:
-        avoid_image1 = Image.open(f'images/{face_shape}/avoid_1.jpg')
-        avoid_image2 = Image.open(f'images/{face_shape}/avoid_2.jpg')
+        avoid_image1 = Image.open(f'src/data/{face_shape}/avoid_1.jpg')
+        avoid_image2 = Image.open(f'src/data/{face_shape}/avoid_2.jpg')
 
         #avoid_resize1 = crop(avoid_image1)
         #avoid_resize2 = crop(avoid_image2)
